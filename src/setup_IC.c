@@ -121,7 +121,7 @@ void setup_IC(REAL *df, struct run_param *this_run)
   this_run->tnow = 0.0;
   this_run->nstep = 0;
   
-  setup_IC_rect(df, this_run);
-  //setup_IC_collapse(df, this_run);
+  //setup_IC_rect(df, this_run);
+  setup_IC_collapse(df, this_run);
   //setup_IC_two_stream(df, this_run);
 }
